@@ -1,0 +1,120 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ 
+}
+.body-log {
+  background-color: #f3f4f6;
+  height: 100vh;
+  display: block;
+  text-align: center;
+  ,
+}
+
+.logo {
+  width: 75px;
+  height: 50px;
+}
+
+.site-header .container{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+ 
+
+}
+
+.site-header {
+  background: linear-gradient(to bottom, #f3f4f6, #0b4ea2);
+  border-bottom: 1px solid #ccc;
+  display: flex;
+
+}
+
+.hotline {
+  background: #0b4ea2;
+  color: #fff;
+  padding:7px 10px;
+  border-radius: 12px;
+}
+.main-nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #0b2138;
+  font-weight: bold;
+}
+
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flow-root;
+  align-items: center;
+}
+
+.al-elm {
+  background-color: #fff;
+  width: 360px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 7%;
+  padding-top: 7%;
+}
+
+.head-log {
+  margin-bottom: 20px;
+}
+
+.img-log {
+  width: 90px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.head-log h3 {
+  font-size: 16px;
+  color: #0b4ea2;
+}
+
+.user-name-c {
+  text-align: right;
+}
+
+.user-name-c label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.user-name-c input {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.enter-c {
+  background-color: #0b4ea2;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.enter-c:hover {
+  background-color: #093b7a;
+}
